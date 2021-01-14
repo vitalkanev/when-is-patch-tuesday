@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!--
+        (Developer tools users: Please open this comment in editor!!)
+        -------------------------------------------------------------
+        
+        So, what's the purpose of this document?
+        This document contains links to various Microsoft Patch Tuesday updates so you don't
+        take a lot of time finding stuff elsewhere.
+        
+        I found an issue!
+        Yell to me by creating an issue on the GitHub repository
+        right here: <https://github.com/vitalkanev/when-is-patch-tuesday/issues/new>
+        
+        This document, nor its author (VitalKanev) are NOT affiliated with Microsoft Corporation,
+        or any employees at all. Thanks.
+        
+        Why XHTML?
+        Because I love old stuff :)
+        
+        Do you count preview releases?
+        Well, nope..
+        
+        There's no version history. I am updating this page every second Wednesday to add new month
+        at the top of the page. On other days I just fix some issues.
+        
+        TODO:
+        * Servers!!!!!!!! (Will do so after adding all updates I think)
+        * More updates!!
+        -->
+        <title>Links to Patch Tuesday notes</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <base target="_blank" />
+        <style type="text/css">
+        /* No bootstrap this time. Sorry */
+        body {
+            font-size: medium;
+            font-family: "Segoe UI", Ubuntu, Tahoma, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        /* Browsers just break headers and paragraphs. Here to fix! */
+        h1 {
+            color: #333333;
+            border-bottom: 3px solid #333333;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            padding-bottom: 3px;
+            padding-top: 0;
+            font-weight: normal;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        dt {
+            font-weight: bold;
+        }
+        
+        .keyterms {
+            margin: 2px;
+        }
+        
+        .keyterms_holder {
+            padding: 3px;
+        }
+        
+        
+        .keyterms_content {
+            padding: 5px;
+            display: none;
+            background-color: #dddddd;
+            color: #000000;
+            margin-bottom: 16px;
+        }
+        
+        .keyterms_content h4 {
+            margin-top: 2px;
+            margin-bottom: 2px;
+            padding: 0;
+        }
+        
+        .updates {
+            border-spacing: 0;
+        }
+        
+        
+        .updates th {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        
+        .updates td {
+            padding: 4px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        .updates .date {
+            background-color: #bbbbbb;
+            color: #000000;
+        }
+        
+        .updates .kb {
+            color: #000066;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            padding: 0;
+        }
+        
+        .updates .eos {
+            background-color: #666666;
+            color: #ffffff;
+            vertical-align: top;
+        }
+        
+        .updates .eos a {
+            color: #ffff00;
+        }
+        
+        .updates .smaller {
+            font-size: small;
+            padding: 0;
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+
+        .updates .na {
+            background-color: #cccccc;
+            color: #000000;
+            vertical-align: top;
+        }
+        
+        .updates .special {
+            background-color: #dddddd;
+            color: #000000;
+        }
+
+        .list {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .list li {
+            margin-left: 24px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Links to <i>Patch Tuesday</i> notes</h1>
+        <p><b>Really incomplete!</b> I'll add more data soon. Thank you.</p>
+        <p>This (massive!) table contains links to all monthly Windows security patches that were published by Microsoft. As I (VitalKanev) said in <a href="index.html" target="_self">the home page of this minisite</a>, this site is NOT affiliated with Microsoft Corporation in any way.</p>
+        
+        <div class="keyterms">
+            <div class="keyterms_holder">
+                <a href="javascript:toggleTerms();" target="_self">Show/hide key terms</a>
+            </div>
+            <div class="keyterms_content" id="ktc">
+                <h4>Key terms</h4>
+                <dl>
+                    <dt>WUC</dt>
+                    <dd>Windows Update Catalog</dd>
+                    <dt>LTSC</dt>
+                    <dd>Long-Term Servicing Channel</dd>
+                    <dt>LTSB</dt>
+                    <dd>Long-term Servicing Branch</dd>
+                    <dt>ESU</dt>
+                    <dd>Extended Security Updates. Additional information is available on <a href="https://docs.microsoft.com/en-gb/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq">Microsoft Docs</a>.</dd>
+                    <dt>EoS</dt>
+                    <dd>End of servicing</dd>
+                </dl>
+            </div>
+        </div>
+        
+        <!-- Begin table -->
+        <table class="updates">
+            <tbody>
+                <tr>
+                    <th rowspan="2">Date</th>
+                    <th colspan="11">Windows 10</th>
+                    <th rowspan="2">Windows 8.1</th>
+                    <th rowspan="2">Windows 7<sup><abbr title="Since Jan 14 2020">ESU</abbr></sup></th>
+                </tr>
+                <tr>
+                    <!-- This row exists for Windows 10 versions -->
+                    <th>20H2</th>
+                    <th>2004</th>
+                    <th>1909</th>
+                    <th>1903</th>
+                    <th>1809<sup><abbr title="Mainstream support ended on Nov 10, 2020">LTSC</abbr></sup></th>
+                    <th>1803</th>
+                    <th>1709</th>
+                    <th>1703<sup><abbr title="After November 12, 2019 updates for Windows 10 1703 are published exclusively for Surface Hub devices">Hub</abbr></sup></th>
+                    <th>1607<sup><abbr title="Mainstream support ended on Apr 10, 2018 ">LTSB</abbr></sup></th>
+                    <th>1511</th>
+                    <th>1507<sup><abbr title="Mainstream support ended on May 9, 2017">LTSB</abbr></sup></th>
+                </tr>
+                <tr>
+                    <td class="date" id="jan_2021"><b>January 12, 2021</b></td>
+                    <td colspan="2">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598242">KB4598242</a></p>
+                        <p class="smaller">WUC: <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598242%2020h2">20H2</a> / <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598242%202004" tatget="_blank">2004</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598229">KB4598229</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598229">WUC</a></p>
+                    </td>
+                    <td class="eos"><a href="https://docs.microsoft.com/lifecycle/announcements/windows-10-1903-end-of-servicing">EoS</a><br /><span class="smaller">(See <a href="#note_footer_1" id="note_go_1" target="_self">Note 1</a>)</span></td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598230">KB4598230</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598230">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598245">KB4598245</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598245">WUC</a></p>
+                    </td>
+                    <td class="eos" rowspan="3"><a href="https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709">EoS</a></td>
+                    <td class="special">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4599208">KB4599208</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4599208">WUC</a> &bull; <a href="#note_footer_2" id="note_go_2_1" target="_self">Note 2</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598243">KB4598243</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598243">WUC</a></p>
+                    </td>
+                    <td class="eos" rowspan="3">EoS<br /><span class="smaller">(since <a href="https://docs.microsoft.com/en-gb/lifecycle/products/windows-10-home-and-pro">Oct 10 2017</a><br />Last Enterprise<br />update:<br /><a href="javascript:window.alert('Not yet done :(');" target="_self">March 13, 2018</a>)</span></td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598231">KB4598231</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4598231">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598285">KB4598285</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%208.1%20KB4598285">WUC</a></p>
+                    </td>
+                    <td class="special">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4598279">KB4598279</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%207%20KB4598279">WUC</a> &bull; <a href="#note_footer_3" id="note_go_3_1" target="_self">Note 3</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="date" id="dec_2020"><b>December 8, 2020</b></td>
+                    <td colspan="2">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592438">KB4592438</a></p>
+                        <p class="smaller">WUC: <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4592438%2020H2">20H2</a> / <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4592438%202004">2004</a></p>
+                    </td>
+                    <td colspan="2">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592449">KB4592449</a></p>
+                        <p class="smaller">WUC: <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4592449%201909">1909</a> / <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4592449%201903">1903</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592440">KB4592440</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4592440">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592446">KB4592446</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4592446">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592473">KB4592473</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4592473">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4593226">KB4593226</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4593226">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592464">KB4592464</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20KB4592464">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592484">KB4592484</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=windows%208.1%20KB4592484">WUC</a></p>
+                    </td>
+                    <td class="special">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4592471">KB4592471</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%207%20KB4592471">WUC</a> &bull; <a href="#note_footer_3" id="note_go_3_2" target="_self">Note 3</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="date" id="nov_2020"><b>November 10, 2020</b></td>
+                    <td colspan="2">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586781">KB4586781</a></p>
+                       <p class="smaller">WUC: <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586781%2020H2">20H2</a> / <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586781%202004">2004</a></p>
+                    </td>
+                    <td colspan="2">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586786">KB4586786</a></p>
+                        <p class="smaller">WUC: <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586786%201909">1909</a> / <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586786%201903">1903</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586793">KB4586793</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586793">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586785">KB4586785</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586785">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586782">KB4586782</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586782">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586830">KB4586830</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586830">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586787">KB4586787</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%2010%20KB4586787">WUC</a></p>
+                    </td>
+                    <td>
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586845">KB4586845</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%208.1%20KB4586845">WUC</a></p>
+                    </td>
+                    <td class="special">
+                        <p class="kb"><a href="https://support.microsoft.com/help/4586827">KB4586827</a></p>
+                        <p class="smaller"><a href="https://www.catalog.update.microsoft.com/Search.aspx?q=Windows%207%20KB4586827">WUC</a> &bull; <a href="#note_footer_3" id="note_go_3_3" target="_self">Note 3</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="date" id="oct_2020"><b>October 13, 2020</b></td>
+                    <td class="na">N/A</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- END table -->
+        <div id="footer">
+            <hr />
+            <ol class="list">
+                <li id="note_footer_1"><a href="#note_go_1">^</a> Windows 10 1903 users can also download a special enablement update (<a href="https://support.microsoft.com/help/4517245">KB4517245</a>) to continue recieving updates.</li>
+                <li id="note_footer_2">placeholder</li>
+                <li id="note_footer_3"><sup><a href="#note_go_3_1">1</a> <a href="#note_go_3_2">2</a> <a href="#note_go_3_3">3</a> </sup> </li>
+            </ol>
+            <hr />
+            <p style="padding: 0; margin-top: 2px; margin-bottom: 2px;"><a href="https://github.com/vitalkanev/when-is-patch-tuesday/blob/main/patches.html">Source code</a> for this page is available.</p>
+        </div>
+        <script type="text/javascript">
+        <!--toggler
+        // Small function to toggle Key Terms
+        function toggleTerms () {
+            if (document.getElementById("ktc").style.display == "block") {
+                document.getElementById("ktc").style.display = "none";
+            } else {
+                document.getElementById("ktc").style.display = "block";
+            }
+        }
+        //toggler-->
+        </script>
+    </body>
+</html>
